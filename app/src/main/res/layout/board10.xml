@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sub"
+        android:id="@+id/b10main">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#FFE400"
+            android:id="@+id/b10info"
+            android:text="정 보"
+            android:paddingLeft="180dp"
+            android:paddingTop="3dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b10t"
+            android:text="집명칭 : 동양ATP 다동"
+            android:textStyle="bold"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="62dp"
+            android:textColor="#FF000000"
+            android:layout_marginStart="28dp"
+            android:layout_below="@+id/b10info"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b10n"
+            android:text="전화번호 : 010-4445-5195"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b10t"
+            android:layout_alignStart="@+id/b10t"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b10r"
+            android:text="금액 : 250만원/년"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b10n"
+            android:layout_alignStart="@+id/b10n"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b10m"
+            android:text="보증금 : 30만원"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b10r"
+            android:layout_alignStart="@+id/b10r"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b10a"
+            android:text="주소 : 경상북도 영주시 풍기읍 동양대로65번길 39"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_alignStart="@+id/b10m"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF000000"
+            android:layout_below="@+id/b10m"/>
+            <!--android:layout_alignParentEnd="true"-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:text="옵션 : 풀옵션"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b10a"
+            android:layout_alignStart="@+id/b10a"
+            android:id="@+id/b10o"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#FFE400"
+            android:id="@+id/b10pic"
+            android:text="사 진"
+            android:paddingLeft="180dp"
+            android:paddingTop="3dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:layout_marginTop="72dp"
+            android:layout_below="@+id/b10o"
+            android:layout_alignParentStart="true" />
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/room1"
+            android:layout_weight="0.23"
+            android:id="@+id/room10img"
+            android:layout_below="@+id/b10a"
+            android:layout_alignParentStart="true" />-->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:text="전화하기"
+            android:background="#FFE400"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/call10"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
+

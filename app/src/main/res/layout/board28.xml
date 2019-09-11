@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sub"
+        android:id="@+id/b28main">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#FFE400"
+            android:id="@+id/b28info"
+            android:text="정 보"
+            android:paddingLeft="180dp"
+            android:paddingTop="3dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b28t"
+            android:text="집명칭 : 교촌빌 A동"
+            android:textStyle="bold"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="62dp"
+            android:textColor="#FF000000"
+            android:layout_marginStart="28dp"
+            android:layout_below="@+id/b28info"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b28n"
+            android:text="전화번호 : 010-2380-8020"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b28t"
+            android:layout_alignStart="@+id/b28t"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b28r"
+            android:text="금액 : 260만원/년"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b28n"
+            android:layout_alignStart="@+id/b28n"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b28m"
+            android:text="보증금 : 50만원"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b28r"
+            android:layout_alignStart="@+id/b28r"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:id="@+id/b28a"
+            android:text="주소 : 경상북도 영주시 풍기읍 금계로64번길 36"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_alignStart="@+id/b28m"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF000000"
+            android:layout_below="@+id/b28m"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00f4ff73"
+            android:text="옵션 : 풀옵션"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/b28a"
+            android:layout_alignStart="@+id/b28a"
+            android:id="@+id/b28o"
+            android:textColor="#FF000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#FFE400"
+            android:id="@+id/b28pic"
+            android:text="사 진"
+            android:paddingLeft="180dp"
+            android:paddingTop="3dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:layout_marginTop="72dp"
+            android:layout_below="@+id/b28o"
+            android:layout_alignParentStart="true" />
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/room27"
+            android:layout_weight="0.23"
+            android:id="@+id/room28img"
+            android:layout_below="@+id/b28a"
+            android:layout_alignParentStart="true" />-->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:text="전화하기"
+            android:background="#FFE400"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/call28"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+

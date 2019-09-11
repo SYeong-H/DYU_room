@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub">
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#fff0aa"
+            android:id="@+id/board1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="드림 스페이스"
+                android:textSize="25dp"
+                android:id="@+id/title1"
+                android:layout_toRightOf="@+id/img1"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board1"
+            android:background="#fff0aa"
+            android:id="@+id/board2"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하늘마루"
+                android:textSize="25dp"
+                android:id="@+id/title2"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board2"
+            android:background="#fff0aa"
+            android:id="@+id/board3"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하늘정원"
+                android:textSize="25dp"
+                android:id="@+id/title3"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board3"
+            android:background="#fff0aa"
+            android:id="@+id/board4"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn4"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="해마루"
+                android:textSize="25dp"
+                android:id="@+id/title4"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board4"
+            android:background="#fff0aa"
+            android:id="@+id/board5"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn5"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대박하우스"
+                android:textSize="25dp"
+                android:id="@+id/title5"
+                android:layout_toRightOf="@+id/img5"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board5"
+            android:background="#fff0aa"
+            android:id="@+id/board6"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn6"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img6"
+              />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="예다움 2동"
+                android:textSize="25dp"
+                android:id="@+id/title6"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img6" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board6"
+            android:background="#fff0aa"
+            android:id="@+id/board7"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn7"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/title7" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img7"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프린스"
+                android:textSize="25dp"
+                android:id="@+id/title7"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img7" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board7"
+            android:background="#fff0aa"
+            android:id="@+id/board8"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn8"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img8"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="예다움 3동"
+                android:textSize="25dp"
+                android:id="@+id/title8"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img8" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board8"
+            android:background="#fff0aa"
+            android:id="@+id/board9"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn9"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img9"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소백학사 B동"
+                android:textSize="25dp"
+                android:id="@+id/title9"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img9" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board9"
+            android:background="#fff0aa"
+            android:id="@+id/board10"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn10"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img10"
+              />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="동양APT 다동"
+                android:textSize="25dp"
+                android:id="@+id/title10"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board10"
+            android:background="#fff0aa"
+            android:id="@+id/board11"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn11"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img11"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="풍기원룸 나동"
+                android:textSize="25dp"
+                android:id="@+id/title11"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img11" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board11"
+            android:background="#fff0aa"
+            android:id="@+id/board12"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn12"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img12"
+             />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하늘채 B동"
+                android:textSize="25dp"
+                android:id="@+id/title12"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img12" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board12"
+            android:background="#fff0aa"
+            android:id="@+id/board13"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn13"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img13"
+             />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이화원룸"
+                android:textSize="25dp"
+                android:id="@+id/title13"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img13" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board13"
+            android:background="#fff0aa"
+            android:id="@+id/board14"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn14"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img14"
+              />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="벤틀리"
+                android:textSize="25dp"
+                android:id="@+id/title14"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img14" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board14"
+            android:background="#fff0aa"
+            android:id="@+id/board15"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/img15"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="캠퍼스빌"
+                android:textSize="25dp"
+                android:id="@+id/title15"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board15"
+            android:background="#fff0aa"
+            android:id="@+id/board16"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img16"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이편한세상"
+                android:textSize="25dp"
+                android:id="@+id/title16"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img16" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board16"
+            android:background="#fff0aa"
+            android:id="@+id/board17"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn17"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img17"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마스터빌 4동"
+                android:textSize="25dp"
+                android:id="@+id/title17"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img17" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board17"
+            android:background="#fff0aa"
+            android:id="@+id/board18"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn18"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img18"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마스터빌 5동"
+                android:textSize="25dp"
+                android:id="@+id/title18"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img18" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board18"
+            android:background="#fff0aa"
+            android:id="@+id/board19"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn19"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img19"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대동원룸"
+                android:textSize="25dp"
+                android:id="@+id/title19"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img19" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board19"
+            android:background="#fff0aa"
+            android:id="@+id/board20"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn20"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img20"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하늘채 G동"
+                android:textSize="25dp"
+                android:id="@+id/title20"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img20" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board20"
+            android:background="#fff0aa"
+            android:id="@+id/board21"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn21"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img21"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마스터빌 3동"
+                android:textSize="25dp"
+                android:id="@+id/title21"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img21" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board21"
+            android:background="#fff0aa"
+            android:id="@+id/board22"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn22"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img22"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="성공빌리지"
+                android:textSize="25dp"
+                android:id="@+id/title22"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img22" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board22"
+            android:background="#fff0aa"
+            android:id="@+id/board23"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn23"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img23"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="안산원룸"
+                android:textSize="25dp"
+                android:id="@+id/title23"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img23" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board23"
+            android:background="#fff0aa"
+            android:id="@+id/board24"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn24"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img24"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="예다움 1동"
+                android:textSize="25dp"
+                android:id="@+id/title24"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img24" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board24"
+            android:background="#fff0aa"
+            android:id="@+id/board25"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn25"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img25"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소백학사2"
+                android:textSize="25dp"
+                android:id="@+id/title25"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img25" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board25"
+            android:background="#fff0aa"
+            android:id="@+id/board26"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn26"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img26"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마스터빌 1동"
+                android:textSize="25dp"
+                android:id="@+id/title26"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img26" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board26"
+            android:background="#fff0aa"
+            android:id="@+id/board27"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn27"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img27"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="마스터빌 2동"
+                android:textSize="25dp"
+                android:id="@+id/title27"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img27" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board27"
+            android:background="#fff0aa"
+            android:id="@+id/board28"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn28"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img28"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="교촌빌 A동"
+                android:textSize="25dp"
+                android:id="@+id/title28"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img28" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board28"
+            android:background="#fff0aa"
+            android:id="@+id/board29"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn29"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img29"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="서우캐슬"
+                android:textSize="25dp"
+                android:id="@+id/title29"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img29" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board29"
+            android:background="#fff0aa"
+            android:id="@+id/board30"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn30"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img30"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하늘채 A동"
+                android:textSize="25dp"
+                android:id="@+id/title30"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img30" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board30"
+            android:background="#fff0aa"
+            android:id="@+id/board31"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn31"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img31"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="한승원룸"
+                android:textSize="25dp"
+                android:id="@+id/title31"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img31" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board31"
+            android:background="#fff0aa"
+            android:id="@+id/board32"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn32"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img32"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아이빌"
+                android:textSize="25dp"
+                android:id="@+id/title32"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board32"
+            android:background="#fff0aa"
+            android:id="@+id/board33"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn33"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img33"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="교촌원룸"
+                android:textSize="25dp"
+                android:id="@+id/title33"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img33" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/board33"
+            android:background="#fff0aa"
+            android:id="@+id/board34"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ff0000"
+                android:id="@+id/gobtn34"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons"
+                android:id="@+id/img34"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아름드리"
+                android:textSize="25dp"
+                android:id="@+id/title34"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img34" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

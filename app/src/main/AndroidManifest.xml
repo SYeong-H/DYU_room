@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.ndyuroom" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBNyhkbpYcZZfMfUq3abDQ3mqLZQH3UWX0"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".Board1Activity" android:label="첫번째 게시물"/>
+        <activity android:name=".Board2Activity" android:label="두번째 게시물"/>
+        <activity android:name=".Board3Activity" android:label="세번째 게시물"/>
+        <activity android:name=".Board4Activity" android:label="네번째 게시물"/>
+        <activity android:name=".Board5Activity" android:label="다섯번째 게시물"/>
+        <activity android:name=".Board6Activity" android:label="여섯번째 게시물"/>
+        <activity android:name=".Board7Activity" android:label="일곱번째 게시물"/>
+        <activity android:name=".Board8Activity" android:label="여덟번째 게시물"/>
+        <activity android:name=".Board9Activity" android:label="아홉번째 게시물"/>
+        <activity android:name=".Board10Activity" android:label="열번째 게시물"/>
+        <activity android:name=".Board11Activity" android:label="열한번째 게시물"/>
+        <activity android:name=".Board12Activity" android:label="열두번째 게시물"/>
+        <activity android:name=".Board13Activity" android:label="열세번째 게시물"/>
+        <activity android:name=".Board14Activity" android:label="열네번째 게시물"/>
+        <activity android:name=".Board15Activity" android:label="열다섯번째 게시물"/>
+        <activity android:name=".Board16Activity" android:label="열여섯번째 게시물"/>
+        <activity android:name=".Board17Activity" android:label="열일곱번째 게시물"/>
+        <activity android:name=".Board18Activity" android:label="열여덟번째 게시물"/>
+        <activity android:name=".Board19Activity" android:label="열아홉번째 게시물"/>
+        <activity android:name=".Board20Activity" android:label="스물번째 게시물"/>
+        <activity android:name=".Board21Activity" android:label="스물한번째 게시물"/>
+        <activity android:name=".Board22Activity" android:label="스물두번째 게시물"/>
+        <activity android:name=".Board23Activity" android:label="스물세번째 게시물"/>
+        <activity android:name=".Board24Activity" android:label="스물네번째 게시물"/>
+        <activity android:name=".Board25Activity" android:label="스물다섯번째 게시물"/>
+        <activity android:name=".Board26Activity" android:label="스물여섯번째 게시물"/>
+        <activity android:name=".Board27Activity" android:label="스물일곱번째 게시물"/>
+        <activity android:name=".Board28Activity" android:label="스물여덟번째 게시물"/>
+        <activity android:name=".Board29Activity" android:label="스물아홉번째 게시물"/>
+        <activity android:name=".Board30Activity" android:label="서른번째 게시물"/>
+        <activity android:name=".Board31Activity" android:label="서른한번째 게시물"/>
+        <activity android:name=".Board32Activity" android:label="서른두번째 게시물"/>
+        <activity android:name=".Board33Activity" android:label="서른세번째 게시물"/>
+        <activity android:name=".Board34Activity" android:label="서른네번째 게시물"/>
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-sdk android:minSdkVersion="3" />
+</manifest>
